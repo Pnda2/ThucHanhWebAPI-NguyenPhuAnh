@@ -1,15 +1,18 @@
 ## ⛩ **NodeJS Starter**
 
 ### **`About this repository 😎`**
+
 This repository talks about how to build an outstanding web server using latest Javascript technologies that can help micro entrepreneurs swiftly reach economic freedom.
 
 ### **`Engine Requirement 🚜`**
+
 ```
   -- Node.js v16.x or v18.x
   -- NPM v8+
 ```
 
 ### **`Technology Stacks 🍔`**
+
 ```
   -- Node.js
   -- Koa.js (Express.js Godfather) 🔥🔥
@@ -18,6 +21,7 @@ This repository talks about how to build an outstanding web server using latest 
 ```
 
 ### **`Project Structures 🏢`**
+
 ```
 .
 │── README.md
@@ -42,20 +46,23 @@ This repository talks about how to build an outstanding web server using latest 
 ```
 
 ### **`Install Localy 🧑🏼‍🔧`**
-1. install dependency. `npm install`  
+
+1. install dependency. `npm install`
 1. copy .env.example and rename it into .env (`cp .env.example .env`)
 1. ajust config in .env
 
 ### **`Running App 👟`**
-`npm start`  
+
+`npm start`
 
 ### **`Flow Development 🏗`**
-During the development cycle, a variety of supporting branches are used:  
 
-- feature/* -- feature branches are used to develop new features for the upcoming releases. May branch off from develop and must merge into develop.
-- hotfix/* -- hotfix branches are necessary to act immediately upon an undesired status of master. May branch off from master and must merge into master and develop.
+During the development cycle, a variety of supporting branches are used:
 
-Creating a new feature  
+- feature/\* -- feature branches are used to develop new features for the upcoming releases. May branch off from develop and must merge into develop.
+- hotfix/\* -- hotfix branches are necessary to act immediately upon an undesired status of master. May branch off from master and must merge into master and develop.
+
+Creating a new feature
 
 1. create new branch from master. ex: `feature/name-of-feature`.
 1. write your code.
@@ -66,7 +73,8 @@ Creating a new feature
 1. if ready to production then create PR from the same branch into master/production. **DON'T PR FROM DEVELOPMENT BRANCH OR STAGING!**
 
 ### **`Deployment 🚀`**
-This flow of deployment using Git Flow with 3 main branches  
+
+This flow of deployment using Git Flow with 3 main branches
 
 - master -- this branch contains production code. All development code is merged into master in sometime.
 - staging -- this branch is a nearly exact replica of a production environment for software testing.
