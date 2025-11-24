@@ -5,7 +5,7 @@ import {getAllTaiKhoan, getTaiKhoanByTk, getTaiKhoanByMoTa, checkLogin, addTaiKh
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.json({ message: "Welcome to API route 🚀" });
+  res.json({ message: "Welcome to API route" });
 });
 
 // Route: GET /api/users

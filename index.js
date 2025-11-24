@@ -34,7 +34,9 @@ if (["dev", "development"].includes(process.env.NODE_ENV)) {
 }
 
 app.use(helmet());
-app.use(cors({ origin: "*", allowedHeaders: ["Content-Type", "Authorization"] }));
+app.use(
+  cors({ origin: "*", allowedHeaders: ["Content-Type", "Authorization"] })
+);
 app.use(compression());
 app.use(cookieParser());
 app.use(express.json({ limit: "5mb" }));
