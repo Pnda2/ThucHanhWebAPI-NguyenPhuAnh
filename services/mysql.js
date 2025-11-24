@@ -6,11 +6,9 @@ const connectionOptions = process.env.MYSQL_URI ?? {
   port: process.env.MYSQL_PORT || 3306,
   user: process.env.MYSQL_USERNAME || "root",
   password: process.env.MYSQL_PASSWORD || "",
-  database: process.env.MYSQL_DBNAME || ""
+  database: process.env.MYSQL_DBNAME || "",
 };
 
-export const pool = mysql
-  .createPool(connectionOptions)
-  .promise();
+export const pool = mysql.createPool(connectionOptions);
 
 console.log("MySQL pool initialized");
