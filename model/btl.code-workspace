@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../../htm/btl"
+	},
+	{
+		"path": "../../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "btl"
+  }
+}
