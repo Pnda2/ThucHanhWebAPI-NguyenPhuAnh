@@ -1,4 +1,4 @@
-import { pool } from "../services/mssql.js";
+import { pool } from "../services/mysql.js";
 
 export const userRepo = {
     getUsers: async () => {
