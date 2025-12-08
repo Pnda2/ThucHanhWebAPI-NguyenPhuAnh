@@ -1,3 +1,5 @@
-node_modules
-.DS_Store
-.env
+btl/
+buoi2/
+mysql/
+TH_buoi1/exbai1/
+TH_buoi1/nodejs-api-starter/
