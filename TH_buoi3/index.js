@@ -7,6 +7,7 @@ import cookieParser from "cookie-parser";
 
 import { requestLogger } from "./middlewares/logger.middleware.js";
 import apiRoutes from "./routes/api.js";
+import apiRoutes2 from "./routes/api2.js";
 import webRoutes from "./routes/web.js";
 import { logger } from "./config/logger.js";
 
@@ -33,6 +34,7 @@ app.use(requestLogger);
 // Routes
 // ---------------------------
 
+app.use("/api2", apiRoutes2);
 app.use("/api", apiRoutes);
 app.use("/", webRoutes);
 
